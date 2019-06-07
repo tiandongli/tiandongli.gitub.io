@@ -1,188 +1,707 @@
 <!DOCTYPE html>
-<html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
 <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.2">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.2">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.2">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.2" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
 
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="黎天东的博客">
 <meta property="og:url" content="https://tiandongli.gitub.io/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="黎天东的博客">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="黎天东的博客">
+
+
+
+
+
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://tiandongli.gitub.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/06/06/hello-world/" class="article-date">
-  <time datetime="2019-06-06T13:51:13.384Z" itemprop="datePublished">2019-06-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/06/06/hello-world/">Hello World</a>
-    </h1>
+  <link rel="canonical" href="https://tiandongli.gitub.io/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>黎天东的博客</title>
   
 
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">黎天东的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Navigationsleiste an/ausschalten">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://tiandongli.gitub.io/2019/06/06/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="tiandong">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="黎天东的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/06/06/hello-world/" class="post-title-link" itemprop="url">meta分析</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-06-06 21:51:13" itemprop="dateCreated datePublished" datetime="2019-06-06T21:51:13+08:00">2019-06-06</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-06-07 12:27:54" itemprop="dateModified" datetime="2019-06-07T12:27:54+08:00">2019-06-07</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Hellow-hexo"><a href="#Hellow-hexo" class="headerlink" title="Hellow hexo"></a>Hellow hexo</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+      
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+      
+        
+          
+            <p>在分析之前需要装好meta分析所需的包，在stata控制面板中输入：ssc install metan 进行安装meta分析组件！</p>
+<p>接下来就可以进行分析了</p>
+<h5 id="建立新变量："><a href="#建立新变量：" class="headerlink" title="建立新变量："></a>建立新变量：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">gene lnor=ln(rr)</span><br><span class="line">gene lnll=ln(ll)</span><br><span class="line">gene lnul=ln(ul)</span><br><span class="line">gene selnor=(ln(ul)-ln(ll))/3.929  #（本来为gen selogrr=(logul-logll)/2/1.96）</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h5 id="森林图"><a href="#森林图" class="headerlink" title="森林图"></a>森林图</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 固定效应模型</span><br><span class="line">metan lnor lnll lnul,eform label(namevar=author,yearvar=year) effect (&quot;RR&quot;) texts(120) fixed</span><br><span class="line"># 随机效应模型</span><br><span class="line">metan lnor lnll lnul,eform label(namevar=author,yearvar=year) effect (&quot;RR&quot;) texts(110) random</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h5 id="敏感性分析"><a href="#敏感性分析" class="headerlink" title="敏感性分析"></a>敏感性分析</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ssc install  metaninf  #若没安装，先安装metaninf，或者metainf</span><br><span class="line"></span><br><span class="line">metaninf lnor selnor, id(author) eform print</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<h5 id="发表偏倚"><a href="#发表偏倚" class="headerlink" title="发表偏倚"></a>发表偏倚</h5><p>Stata用于绘制漏斗图的命令有<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 注意：```metabias```已经在2009年做了重要修订，现在的版本名为```metabias6```。```metabias```可通过```graph(begg)```和```graph(egger)```得到Begg漏斗图和Egger漏斗图。</span><br><span class="line"></span><br><span class="line">###### metafunnel命令</span><br></pre></td></tr></table></figure></p>
+<p>ssc install metafunnel  #安装<br>metafunnel lnor selnor  #可绘制经典漏斗图</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">###### metabias命令</span><br></pre></td></tr></table></figure>
 
+<p>metabias6 lnor selnor, graph(egger)  #Egger漏斗图<br>metabias6 lnor selnor, graph(begg)  #Begg漏斗图<br>metabias ntdeath ntalive ncdeath ncalive, or harbord graph  #metabias命令可得到改良Galbraith图（对Harbord加权线性回归法）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">##### 亚组分析</span><br></pre></td></tr></table></figure>
+
+<p>metan lnor lnll lnul,eform label(namevar=author) by(sex) random （按什么分为亚组就by什么）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 如何在stata菜单栏中显示“Meta analysis”选项</span><br><span class="line">1. 首先需要确定meta分析相关命令已经安装；</span><br><span class="line">2. 在**help**中选**search**,选择**search all**,在**keywords**搜索窗口中输入**meta_dialog**,按提示安装meta_dialog模块；</span><br><span class="line">3. 安装meta_dialog模块后，建立并编写**profile.do**文件，放在Stata在安装能够识别出的目录中，如：c:\ado\plus\profile.do，具体如下：</span><br><span class="line">启动Stata，在Window菜单下拉框中选Do-file Editer,选**New Do-file**,在出现的对话框中拷贝以下内容：</span><br></pre></td></tr></table></figure>
+
+<p>if _caller() &gt;= 8 {<br>window menu clear<br>window menu append submenu “stUser” “&amp;Meta-Analysis”<br>window menu append item “Meta-Analysis” “Of Binary and Continuous (meta&amp;n)” “db metan”<br>window menu append item “Meta-Analysis” “Of Effects (&amp;meta)” “db meta”<br>window menu append item “Meta-Analysis” “Of p-values (meta&amp;p)” “db metap”<br>window menu append item “Meta-Analysis” “Cumulative (meta&amp;cum)” “db metacum”<br>window menu append item “Meta-Analysis” “Regression (meta®)” “db metareg”<br>window menu append item “Meta-Analysis” “Funnel Graph, metan-based (f&amp;unnel)” “db funnel”<br>window menu append item “Meta-Analysis” “Funnel Graph, &amp;vertical (metafunnel)” “db metafunnel”<br>window menu append item “Meta-Analysis” “L’abbe Graph, metan-based (&amp;labbe)” “db labbe”<br>window menu append item “Meta-Analysis” “NNT, metan-based (metann&amp;t)” “db metannt”<br>window menu append item “Meta-Analysis” “Influence Analysis, metan-based (metan&amp;inf)” “db metaninf”<br>window menu append item “Meta-Analysis” “Influence Analysis, meta-based (metain&amp;f)” “db metainf”<br>window menu append item “Meta-Analysis” “Galbraith Plot for Heterogeneity (&amp;galbr)” “db galbr”<br>window menu append item “Meta-Analysis” “Publication Bias (meta&amp;bias)” “db metabias”<br>window menu append item “Meta-Analysis” “Trim and Fill Analysis (met&amp;atrim)” “db metatrim”<br>window menu refresh<br>}
+```</p>
+<ol start="4">
+<li>点击file后，选择Save或Save as,在出现的对话框中将文件命名为profile.do,并保存在c:\ado\plus目录下</li>
+<li>在stata命令窗口中输入 <code>run c:\\ado\plus\profile.do</code>,表示以后Stata启动时profile.do自动运行。</li>
+</ol>
+<blockquote>
+<p>在user下拉菜单中会看到一个新的、名字为<code>Meta-Analysis</code>下拉菜单，打开这个菜单会发现14个命令，点击任一命令，就会打开一个对话框，即可进行窗口操作。</p>
+</blockquote>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://tiandongli.gitub.io/2019/06/06/hello-world/" data-id="cjwkr4s8d0000ok9olrvl9n4w" class="article-share-link">Share</a>
+
+    
+
+    
+    
+    
+
+    
+
+    
       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+  </section>
 
   
 
 
-</section>
+          </div>
+          
+
+        </div>
         
-          <aside id="sidebar">
+          
   
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/06/">June 2019</a></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2019/06/06/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">tiandong</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">Artikel</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
     </div>
-  </div>
-
+  </aside>
   
-</aside>
+
+
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">tiandong</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 tiandong<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
+
   
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.1.2</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
 
+    
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
-
+    
   </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.2"></script>
+
+  <script src="/js/motion.js?v=7.1.2"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.1.2"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.2"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
